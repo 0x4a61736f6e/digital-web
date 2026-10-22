@@ -9,6 +9,7 @@
 - Erster Start: 30–60 s Geduld.
 - Speichern: Ordner `downloads` → Browser-Download.
 - Öffnen: ↑ in der Titelleiste → Datei aus `uploads`.
+- Alles außerhalb dieser Ordner speichert der Browser zwischen.
 - Geht nicht: ghdl/iverilog, Remote-Schnittstelle.
 
 ## Lokal
