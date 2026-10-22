@@ -1,0 +1,19 @@
+<!doctype html><html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Digital</title>
+    <style>html, body { height: 100%; margin: 0; }</style>
+    <script src="https://cjrtnc.leaningtech.com/4.3/loader.js"></script>
+  </head>
+  <body>
+    <script>
+      (async function () {
+        await cheerpjInit({
+          javaProperties: ["java.vm.vendor=Leaning Technologies"],
+        });
+        cheerpjCreateDisplay(-1, -1, document.body);
+        await cheerpjRunMain("Start", "/app/digital-web/start.jar:/app/digital-web/Digital.jar");
+      })();
+    </script>
+  </body>
+</html>
